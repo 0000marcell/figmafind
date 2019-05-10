@@ -1,0 +1,17 @@
+{
+  "name": "figmafind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "figmafind.js",
+  "bin": "figmafind.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.20.0",
+    "readstdin": "^1.0.0"
+  }
+}

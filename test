@@ -1,0 +1,6 @@
+#!/usr/bin/bash
+
+ID=YZkG7swHVcXXJ6gA5PfLuNzw
+DATA=$(figmafetch -i $ID -t $FIGMA_TOKEN)
+echo $DATA > tmp
+echo $DATA | figmafind -t TEXT -n text5
