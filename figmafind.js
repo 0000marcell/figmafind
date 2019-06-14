@@ -54,7 +54,8 @@ program
     result.headers = data.headers;
 
     if(!result.document) {
-      console.error('Could find the object');
+      console
+        .error(`Could not find the object ${cmd['type']} ${cmd['name']}`);
       return;
     } 
 
