@@ -1,6 +1,6 @@
 {
   "name": "figmafind",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "figmafind.js",
   "bin": "figmafind.js",
